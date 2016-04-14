@@ -12,12 +12,16 @@ html {
 h3 {
 	text-align: center;
 	font-family: 'Limelight', cursive;
-
+	color: #f3df13;
 }
 
 p, li {
 	font-family: 'Rubik', sans-serif;
 	list-style: none;
+}
+
+b {
+	color: #f3df13;
 }
 
 #title {
@@ -37,14 +41,18 @@ p, li {
 	background-color: #f3df13;
 	-webkit-filter: opacity(.9);
 	filter: opacity(.9);
-	border: groove 1px yellow;
 	border-radius: 15px;
 	z-index: 2;
+	text-shadow:
+    -1px -1px 0 #817676,
+    1px -1px 0 #817676,
+    -1px 1px 0 #817676,
+    1px 1px 0 #817676;
 }
 
 #pres {
 	position: relative;
-	top: 160px;
+	top: 170px;
 	text-align: center;
 	color: white;
 	background-color: #e1690a;
@@ -53,6 +61,11 @@ p, li {
 	padding: 3px;
 	border-radius: 15px;
 	box-shadow: 7px 7px 5px rgba(0,0,0,0.5);
+	text-shadow:
+    -1px -1px 0 #817676,
+    1px -1px 0 #817676,
+    -1px 1px 0 #817676,
+    1px 1px 0 #817676;
 }
 
 #xp {
@@ -60,27 +73,29 @@ p, li {
 	right: -450px;
 	bottom: -250px;
 	max-width: 400px;
-	border: solid 1px #e2f0fa;
 	border-radius: 100%;
 	padding: 20px;
 	text-align: center;
 	background-color: #5fb0b4;
 	background-image: url("http://i.skyrock.net/6383/33436383/pics/1813917694_small_1.jpg");
-	box-shadow: -7px 10px 5px rgba(0,0,0,0.5);
+	/*background-color: #e2f0fa;*/
+	background-repeat: no-repeat;
 	background-position: center;
-	color: white;
+	color: black;
     text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+    -1px -1px 0 #817676,
+    1px -1px 0 #817676,
+    -1px 1px 0 #817676,
+    1px 1px 0 #817676;
+    -webkit-filter: opacity(.9);
+	filter: opacity(.9);
 }
 
 #formation {
 	position: relative;
-	bottom: -40px;
+	bottom: -20px;
+	left: -5px;
 	max-width: 400px;
-	border: solid 1px #e2f0fa;
 	border-radius: 100%;
 	padding: 20px;
 	text-align: center;
@@ -90,27 +105,30 @@ p, li {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 500px 300px;
-    color: white;
+    color: black;
     text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+    -1px -1px 0 #817676,
+    1px -1px 0 #817676,
+    -1px 1px 0 #817676,
+    1px 1px 0 #817676;
+    -webkit-filter: opacity(.9);
+	filter: opacity(.9);
 }
 
 #int {
 	position: relative;
 	bottom: -100px;
 	max-width: 900px;
-	border: solid 1px;
 	padding: 20px;
 	text-align: center;
 	background-color: #418f39;
-	border: groove 1px green;
 	border-radius: 15px;
-}
-
-
-header {
-	/*background-color: #F2DF42;*/
+	color: white;
+    text-shadow:
+    -1px -1px 0 #817676,
+    1px -1px 0 #817676,
+    -1px 1px 0 #817676,
+    1px 1px 0 #817676;
+        -webkit-filter: opacity(.9);
+	filter: opacity(.9);
 }
