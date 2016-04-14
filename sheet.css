@@ -73,7 +73,7 @@ b {
 #xp {
 	position: relative;
 	right: -450px;
-	bottom: -250px;
+	bottom: -280px;
 	max-width: 400px;
 	border-radius: 100%;
 	padding: 20px;
@@ -93,7 +93,7 @@ b {
 
 #formation {
 	position: relative;
-	bottom: -20px;
+	bottom: -50px;
 	left: -5px;
 	max-width: 400px;
 	border-radius: 100%;
