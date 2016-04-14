@@ -1,0 +1,115 @@
+#back {
+
+}
+
+
+html {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("aquab3.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	background-color: #bfe1fc;
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Limelight', cursive;
+
+}
+
+p, li {
+	font-family: 'Rubik', sans-serif;
+	list-style: none;
+}
+
+#title {
+	margin: 15px 0px 0px 40px;
+}
+
+#profil {
+	position: relative;
+	margin-right: 25px;
+	margin-top: -20px;
+	float: right;
+	z-index: 1;
+	top: 50px;
+
+}
+#contact {
+		background-color: #f3df13;
+		-webkit-filter: opacity(.9);
+		filter: opacity(.9);
+
+		border: groove 1px yellow;
+		border-radius: 15px;
+		z-index: 2;
+}
+
+#pres {
+	position: relative;
+	top: 160px;
+	text-align: center;
+	text-align: center;
+	background-color: #e1690a;
+	-webkit-filter: opacity(.9);
+		filter: opacity(.9);
+	padding: 3px;
+		
+		border-radius: 55px;
+		box-shadow: 7px 7px 5px rgba(0,0,0,0.5);
+}
+
+#xp {
+	position: relative;
+
+	right: -450px;
+	bottom: -250px;
+	max-width: 400px;
+	border: solid 1px #e2f0fa;
+	border-radius: 100%;
+	padding: 20px;
+	text-align: center;
+	background-color: #5fb0b4;
+	background-image: url("http://i.skyrock.net/6383/33436383/pics/1813917694_small_1.jpg");
+	box-shadow: -7px 10px 5px rgba(0,0,0,0.5);
+	background-position: center;
+}
+
+#formation {
+	position: relative;
+	bottom: -40px;
+	max-width: 400px;
+	border: solid 1px #e2f0fa;
+	border-radius: 100%;
+	padding: 20px;
+	text-align: center;
+	background-color: #5fb0b4;
+	box-shadow: 7px 10px 5px rgba(0,0,0,0.5);
+	background-image: url("http://i.skyrock.net/6383/33436383/pics/1813917694_small_1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 500px 300px;
+
+}
+
+#int {
+	position: relative;
+	bottom: -100px;
+	max-width: 900px;
+	border: solid 1px;
+	padding: 20px;
+	text-align: center;
+	background-color: #418f39;
+
+
+		border: groove 1px green;
+		border-radius: 15px;
+}
+
+
+header {
+	/*background-color: #F2DF42;*/
+}
