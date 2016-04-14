@@ -63,7 +63,6 @@ b {
 	filter: opacity(.9);
 	padding: 3px;
 	border-radius: 15px;
-	box-shadow: 7px 7px 5px rgba(0,0,0,0.5);
 	text-shadow:
     -1px -1px 0 #817676,
     1px -1px 0 #817676,
@@ -81,7 +80,6 @@ b {
 	text-align: center;
 	background-color: #5fb0b4;
 	background-image: url("res/flaque.jpg");
-	/*background-color: #e2f0fa;*/
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 500px 300px;
@@ -91,8 +89,6 @@ b {
     1px -1px 0 #817676,
     -1px 1px 0 #817676,
     1px 1px 0 #817676;
-    -webkit-filter: opacity(.9);
-	filter: opacity(.9);
 }
 
 #formation {
@@ -104,7 +100,6 @@ b {
 	padding: 20px;
 	text-align: center;
 	background-color: #5fb0b4;
-	box-shadow: 7px 10px 5px rgba(0,0,0,0.5);
 	background-image: url("res/flaque.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -115,8 +110,7 @@ b {
     1px -1px 0 #817676,
     -1px 1px 0 #817676,
     1px 1px 0 #817676;
-    -webkit-filter: opacity(.9);
-	filter: opacity(.9);
+
 }
 
 #int {
@@ -133,6 +127,6 @@ b {
     1px -1px 0 #817676,
     -1px 1px 0 #817676,
     1px 1px 0 #817676;
-        -webkit-filter: opacity(.9);
+    -webkit-filter: opacity(.9);
 	filter: opacity(.9);
 }
