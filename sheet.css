@@ -2,7 +2,7 @@ html {
 	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
-	background-image: url("res/aquab3.jpg");
+	background-image: url("res/aquab4.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: auto;
@@ -59,8 +59,8 @@ b {
 	text-align: center;
 	color: white;
 	background-color: #e1690a;
-	-webkit-filter: opacity(.9);
-	filter: opacity(.9);
+	-webkit-filter: opacity(.8);
+	filter: opacity(.8);
 	padding: 3px;
 	border-radius: 15px;
 	text-shadow:
