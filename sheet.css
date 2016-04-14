@@ -77,10 +77,11 @@ b {
 	padding: 20px;
 	text-align: center;
 	background-color: #5fb0b4;
-	background-image: url("http://i.skyrock.net/6383/33436383/pics/1813917694_small_1.jpg");
+	background-image: url("flaque.jpg");
 	/*background-color: #e2f0fa;*/
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: 500px 300px;
 	color: black;
     text-shadow:
     -1px -1px 0 #817676,
@@ -101,7 +102,7 @@ b {
 	text-align: center;
 	background-color: #5fb0b4;
 	box-shadow: 7px 10px 5px rgba(0,0,0,0.5);
-	background-image: url("http://i.skyrock.net/6383/33436383/pics/1813917694_small_1.jpg");
+	background-image: url("flaque.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 500px 300px;
