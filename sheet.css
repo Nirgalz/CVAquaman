@@ -28,6 +28,10 @@ b {
 	margin: 15px 0px 0px 40px;
 }
 
+#con {
+	font-family: 'Limelight', cursive;
+}
+
 #profil {
 	position: relative;
 	margin-right: 25px;
@@ -46,11 +50,13 @@ b {
 	filter: opacity(.9);
 	border-radius: 15px;
 	z-index: -1;
-	text-shadow:
+	/*text-shadow:
     -1px -1px 0 #817676,
     1px -1px 0 #817676,
     -1px 1px 0 #817676,
-    1px 1px 0 #817676;
+    1px 1px 0 #817676;*/
+    font-family: 'Limelight', cursive;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 #pres {
@@ -68,6 +74,7 @@ b {
     1px -1px 0 #817676,
     -1px 1px 0 #817676,
     1px 1px 0 #817676;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 #xp {
@@ -89,6 +96,7 @@ b {
     1px -1px 0 #817676,
     -1px 1px 0 #817676,
     1px 1px 0 #817676;
+    box-shadow: -7px 10px 5px rgba(0,0,0,0.5);
 }
 
 #formation {
@@ -110,6 +118,7 @@ b {
     1px -1px 0 #817676,
     -1px 1px 0 #817676,
     1px 1px 0 #817676;
+    box-shadow: 7px 10px 5px rgba(0,0,0,0.5);
 
 }
 
@@ -129,4 +138,5 @@ b {
     1px 1px 0 #817676;
     -webkit-filter: opacity(.9);
 	filter: opacity(.9);
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
