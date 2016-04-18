@@ -2,7 +2,6 @@ html {
 	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
-	background-image: url("res/aquab4.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: auto;
@@ -22,6 +21,29 @@ p, li {
 
 b {
 	color: #f3df13;
+}
+
+#foo {
+	background-image: url("res/aquab4.jpg");
+}
+
+#button {
+	padding: 2px;
+	font-family: 'Limelight', cursive;
+	text-align: center;
+	max-width: 900px;
+	background-color: #418f39;
+border-radius: 15px;
+	color: white;
+    text-shadow:
+    -1px -1px 0 #817676,
+    1px -1px 0 #817676,
+    -1px 1px 0 #817676,
+    1px 1px 0 #817676;
+    -webkit-filter: opacity(.9);
+	filter: opacity(.9);
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+
 }
 
 #title {

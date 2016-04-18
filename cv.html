@@ -3,9 +3,51 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="sheet.css">
 	<link href='https://fonts.googleapis.com/css?family=Limelight|Rubik' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="script.js"></script>
 		<title>CV Aquaman</title>
-			<meta charset="utf-8">
+		<meta charset="utf-8">
+
+		<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
+
+<script type="text/javascript">
+	function red(){
+		document.body.style.backgroundColor = "red";
+		document.body.style.backgroundImage = none;
+
+	}
+</script>
+
 </head>
+
+<!-- HIDE Show button-->
+	<a id="button" href="#" onclick="toggle_visibility('foo');">Afficher/Masquer CV</a>
+
+	<button onclick="red()">RED</button>
+
+<!-- change color menu
+<br>
+	<div id="change" style="height:20px; width:100%; position: absolute; float:bottom; background-color:#000000"></div>
+<br>
+<select name="bgcolor" id="bgcolor" onchange="colorDiv()">
+    <option class="1" value=1>Grey</option>
+    <option class="2" value=2>White</option>
+    <option class="3" value=3>Blue</option>
+    <option class="4" value=4>Cian</option>
+    <option class="5" value=5>Green</option>
+</select>
+<br>
+<br> -->
+<div id="foo">
 	<header>
 			<div id="profil">
 			</div>
@@ -72,4 +114,5 @@
 		</ul>
 	</div>
 </body>
+</div>
 </html>
